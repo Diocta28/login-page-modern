@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-panel">
+        <div class="overlay-text">
+          <h2 class="multiline-typ">Want to code again? Let's Go</h2>
+        </div>
+      </div>
+      <div class="right-panel">
+        <h1>Hi Developer</h1>
+        <p>Welcome Back Again</p>
+        <form action="" id="loginForm">
+          <input type="email" name="email" placeholder="Email" id="email" />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            id="password"
+          />
+          <div class="forgot-pass"><a href="#">Forgot password ?</a></div>
+          <button type="submit" class="login-btn">Login</button>
+          <div class="divider">Or</div>
+          <div class="login-button">
+            <button type="button" class="google-btn">
+              <i class="fab fa-google"></i>Login with Google
+            </button>
+            <button type="button" class="google-btn">
+              <i class="fab fa-github"></i>Login with Github
+            </button>
+            <button type="button" class="google-btn">
+              <i class="fab fa-apple"></i>Login with Apple
+            </button>
+          </div>
+          <p class="signup">Dont have an account? <a href="#">Sign up</a></p>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
